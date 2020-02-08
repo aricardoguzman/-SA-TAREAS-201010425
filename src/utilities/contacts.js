@@ -14,7 +14,7 @@ class Contacts {
 
   async listContacts (token) {
     const data = await fetchQuery(
-      configuration.API_URL + 'option=com_contact&webserviceVersion=1.0.0&webserviceClient=administrator&api=Hal',
+      configuration.API_URL + 'option=com_contact&webserviceVersion=1.0.0&webserviceClient=administrator&api=Hal&list[limit]=0',
       'GET',
       undefined,
       { Authorization: 'Bearer ' + token }
