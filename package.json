@@ -20,6 +20,6 @@
   "homepage": "https://github.com/aricardoguzman/-SA-TAREAS-201010425#readme",
   "dependencies": {
     "esm": "^3.2.25",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
